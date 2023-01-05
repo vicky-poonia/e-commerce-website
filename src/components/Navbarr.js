@@ -21,7 +21,7 @@ function Navbarr() {
             <div className="nav-opt d-flex justify-content-center align-items-center">
               <NavLink
                 to="/"
-                className="nav-link navbar-option text-dark mt-1 me-2 fw-bold ms-4"
+                className="nav-link navbar-option text-success mt-1 me-2 fw-bold ms-4"
               >
                 Home
               </NavLink>
@@ -29,18 +29,18 @@ function Navbarr() {
             <div className="nav-opt">
               <NavLink
                 to="/products"
-                className="nav-link text-dark mt-1 me-2 fw-bold ms-4"
+                className="nav-link text-success mt-1 me-2 fw-bold ms-4"
               >
                 Products
               </NavLink>
             </div>
             <div className="nav-opt">
-              <NavLink to="/about" className="nav-link text-dark mt-1 me-2">
+              <NavLink to="/about" className="nav-link text-success mt-1 me-2">
                 About us
               </NavLink>
             </div>
             <div className="nav-opt">
-              <NavLink to="/contact" className="nav-link text-dark mt-1 me-2">
+              <NavLink to="/contact" className="nav-link text-success mt-1 me-2">
                 Contact
               </NavLink>
             </div>
