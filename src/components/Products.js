@@ -25,7 +25,6 @@ const Products = () => {
     getProducts();
   }, []);
   const Loading = () => {
-    //  < div className="text-dark">Loading...</div>
     return (
       <>
         <h1>Loading....</h1>
@@ -80,10 +79,9 @@ const Products = () => {
                   <Card.Img variant="top" src={product.image} height="250px" />
                   <Card.Body>
                     <Card.Title className="mb-0">
-                      {product.title.substring(0, 12)}...
+                      {product.title.substring(0, 12)}
                     </Card.Title>
                     <Card.Text className="fw-bold">${product.price}</Card.Text>
-                    {/* <Button variant="light" className="btn-outline-dark"> */}
                     <NavLink
                       to={`/products/${product.id}`}
                       style={{ textDecoration: "none" }}
@@ -91,7 +89,6 @@ const Products = () => {
                     >
                       Buy Now
                     </NavLink>
-                    {/* </Button> */}
                   </Card.Body>
                 </Card>
               </div>
