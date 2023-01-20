@@ -12,7 +12,7 @@ function Navbarr() {
       <Container>
         <Navbar.Brand href="#" className="fw-bold fs-4">
           <NavLink to="/" className="textd">
-            STORE Collection
+            E-Comm Store
           </NavLink>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -40,7 +40,10 @@ function Navbarr() {
               </NavLink>
             </div>
             <div className="nav-opt">
-              <NavLink to="/contact" className="nav-link text-success mt-1 me-2">
+              <NavLink
+                to="/contact"
+                className="nav-link text-success mt-1 me-2"
+              >
                 Contact
               </NavLink>
             </div>
