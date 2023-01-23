@@ -35,7 +35,7 @@ function Navbarr() {
                 Products
               </NavLink>
             </div>
-            <div className="nav-opt">
+            {/* <div className="nav-opt">
               <NavLink to="/about" className="nav-link text-success mt-1 me-2">
                 About us
               </NavLink>
@@ -47,7 +47,7 @@ function Navbarr() {
               >
                 Contact
               </NavLink>
-            </div>
+            </div> */}
           </Nav>
           <div className="buttons">
             <a href="/" className="btn btn-outline-dark">
